@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>Tim Personal Trainer</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="estilos.css" rel="stylesheet" type="text/css">
+<script language="JavaScript" type="text/JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagens/empresa_01.jpg','imagens/empresa_02.jpg','imagens/empresa_03.jpg','imagens/empresa_04.jpg')"> 
+<div id="corpo" class="fade"> 
+<?php include("topo.php"); ?>
+  <hr>
+  <div id="conteudo" class="empresa">    <h2>Vantagens dos Programas </h2>
+    <ul>
+      <li>Redu&ccedil;&atilde;o de peso</li>
+      <li>Aumento de massa muscular</li>
+      <li>Melhoria de condicionamento f&iacute;sico</li>
+      <li>Mudan&ccedil;a de qualidade de vida</li>
+      <li>Socializa&ccedil;&atilde;o</li>
+      <li>Melhora da Auto Estima </li>
+    </ul>
+  </div>
+	<div id="galeria">
+	<p id="fotona">
+	<img src="imagens/empresa_01.jpg" alt="fotona" name="fotona" id="fotona">
+	</p>
+	<ul>
+	  <li><a href="javascript:;"><img src="imagens/empresa_01.jpg" border="0" class="fotinha" onClick="MM_swapImage('fotona','','imagens/empresa_01.jpg',1)"></a></li>
+	  <li><a href="javascript:;"><img src="imagens/empresa_02.jpg" border="0" class="fotinha" onClick="MM_swapImage('fotona','','imagens/empresa_02.jpg',1)"></a></li>
+	  <li><a href="javascript:;"><img src="imagens/empresa_03.jpg" border="0" class="fotinha" onClick="MM_swapImage('fotona','','imagens/empresa_03.jpg',1)"></a></li>
+	  <li><a href="javascript:;"><img src="imagens/empresa_04.jpg" border="0" class="fotinha" onClick="MM_swapImage('fotona','','imagens/empresa_04.jpg',1)"></a></li>
+	</ul>
+	</div><!-- galeria -->
+  <!-- conteudo -->
+  <?php include("menu.php"); ?>
+</div><!-- corpo --> 
+  <hr>
+<?php include("rodape.php"); ?>
+</body>
+</html>
