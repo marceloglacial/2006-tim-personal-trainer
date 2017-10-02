@@ -1,0 +1,192 @@
+/* Reset
+------------------------------------------------------------*/
+body, h1, h2, h3, h4, h5, h6, ul, form, p, div {
+	margin:0px;
+	padding:0px;
+}
+
+/* Tags iniciais
+------------------------------------------------------------*/
+
+body {
+	font-family: "Trebuchet MS";
+	font-size: 11px;
+	background-color: #FFCC00;
+	background-image: url(../img/fundo.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	text-align: center;
+}
+
+hr {
+	display: none;
+}
+
+/* Corpo
+------------------------------------------------------------*/
+
+#corpo {
+	background-image: url(../img/corpo.jpg);
+	background-repeat: no-repeat;
+	width:770px;
+	height: 450px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+#corpo.fade {
+	background-image:url(../img/corpo_fade.jpg);
+}
+
+
+/* Topo
+------------------------------------------------------------*/
+#topo {
+	height:50px;
+}
+#topo h1,
+#topo p {
+	display:none;
+}
+
+
+/* Conteudo
+------------------------------------------------------------*/
+
+#conteudo {
+	padding-top: 50px;
+	height: 280px;
+	width:350px;
+	margin-right:50px;
+	float:left;
+}
+#conteudo p,
+#conteudo h2,
+#conteudo ul,
+#conteudo.empresa p,
+#conteudo.profissional p  {
+	padding-bottom:5px;
+	margin-left: 50px;
+	margin-right:20px;
+}
+
+#conteudo h2 {
+	font-size:20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	color:#333;
+}
+#conteudo ul li{
+	padding-bottom:7px;
+	margin-left:15px;
+}
+/* Galeria de fotos
+------------------------------------------------------------*/
+#galeria {
+	float:left;
+	padding-top:25px;
+}
+#galeria img {
+	border: solid 1px #999;
+	padding: 5px;
+	background-color:#FFFFFF;
+}
+#fotona {
+	float:left;
+}
+#galeria ul {
+/*	width:100px;*/
+	float:left;
+}
+#galeria ul li {
+	padding-left: 10px;
+	padding-bottom: 10px;
+	list-style:none;
+}
+.fotinha {
+	width:50px;
+	height: 50px;
+}
+#galeria img.fotinha {
+/*	padding:3px;*/
+}
+img.fotinha a {
+	cursor:hand;
+}
+
+
+/* Menu
+------------------------------------------------------------*/
+
+#menu {
+	margin-left: 50px;
+	clear:both;
+}
+#menu ul {
+	list-style: none;
+}
+#menu ul li {
+	float: left;
+	padding-right: 10px;
+}
+#menu a {
+	color:#000000;
+	text-decoration: none;
+}
+#menu a:hover {
+	text-decoration:underline;
+}
+
+/* Rodape
+------------------------------------------------------------*/
+#rodape {
+	padding-bottom: 20px;
+}
+#rodape p,
+#rodape a {
+	color: #fff;
+}
+#rodape a {
+	text-decoration: none;
+}
+#rodape a:hover {
+	text-decoration: underline;
+	color: #000;
+}
+
+
+/* Profissional
+------------------------------------------------------------*/
+.profissional_foto {
+	padding-left: 50px;
+}
+#conteudo.profissional ul li {
+	padding-bottom: 3px;
+}
+
+/* Servicos
+------------------------------------------------------------*/
+#conteudo.servicos {
+	margin-right: 30px;
+}
+html>body #servicos_fotinhas {
+	clear:both;
+}
+#servicos_fotinhas img {
+	margin-top: 5px;
+	margin-right: 5px;
+}
+#servicos_fotinhas img.fotinha {
+	width: 65px;
+}
+
+
+/* Contato
+------------------------------------------------------------*/
+
+#conteudo.contato input,
+#conteudo.contato textarea {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	width: 160px;
+}
