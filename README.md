@@ -16,8 +16,8 @@ https://glacial.gitlab.io/2006-tim-personal-trainer/
 
 ## Screnshot
 
-![screenshot](design/01-home.jpg)
-![screenshot](design/02-empresa.jpg)
-![screenshot](design/03-profissional.jpg)
-![screenshot](design/04-servicos.jpg)
-![screenshot](design/05-contato.jpg)
+![screenshot](design/01-home.png)
+![screenshot](design/02-empresa.png)
+![screenshot](design/03-profissional.png)
+![screenshot](design/04-servicos.png)
+![screenshot](design/05-contato.png)
