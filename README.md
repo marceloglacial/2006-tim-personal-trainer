@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-https://glacial.gitlab.io/2006-tim-personal-trainer/
+https://marceloglacial.github.io/2006-tim-personal-trainer/front-end/
 
 ## Screnshot
 
